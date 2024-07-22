@@ -1,0 +1,92 @@
+* {
+    box-sizing: border-box;
+}
+body {
+    background-image: url('/xampp/htdocs/img/bikinibottom.jpeg');
+    background-size: cover;
+    background-position: center;
+    margin: 0;
+    padding: 0;
+    height: 50px;
+}
+
+.header-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+}
+
+div img {
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+}
+
+header {
+    background-color: turquoise;
+    border-radius: 10px;
+    font-family: 'Lobster', cursive;
+    color: white;
+    position: relative;
+}
+
+header a {
+    color: white;
+    text-decoration: none;
+    position: absolute;
+    right: 20px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+nav {
+    background-color: gray;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 10px;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+nav li {
+    float: left;
+    border-radius: 10px;
+    padding: 0 10px;
+}
+
+h1 {
+    font-family: 'Lobster', cursive;
+    font-size: 50px;
+    color: aquamarine;
+    text-align: center;
+    margin: 20px 0;
+    text-decoration: none;
+    text-indent: none;
+}
+
+p {
+    font-family: 'Lobster', cursive;
+    font-size: 20px;
+    color: turquoise;
+    text-align: center;
+    margin: 20px;
+}
+
+hr {
+    border: 0.5px solid turquoise;
+    
+}
+
+footer{
+    padding: 10px;
+    margin: 10px 0;
+    text-align: center;
+    color: aquamarine;
+    font-family: 'lobster', cursive;
+}
