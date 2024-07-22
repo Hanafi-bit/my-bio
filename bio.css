@@ -2,7 +2,7 @@
     box-sizing: border-box;
 }
 body {
-    background-image: url('/xampp/htdocs/img/bikinibottom.jpeg');
+    background-image: url('img/bikinibottom.jpeg');
     background-size: cover;
     background-position: center;
     margin: 0;
